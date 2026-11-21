@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crocy Café Menu</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#222;font-family:system-ui,sans-serif;line-height:1.4}
+.wrap{max-width:720px;margin:0 auto;padding:24px 20px 48px}
+h1{font-family:"Brush Script MT","Segoe Script",cursive;font-size:3rem;color:#8e24aa;margin:0 0 4px 60px}
+.tag{font-family:Impact,"Arial Narrow",sans-serif;letter-spacing:2px;color:#00897b;text-align:right;margin:0 0 30px}
+section{margin-bottom:34px}
+h2{margin:0 0 10px}
+.item{margin:0 0 12px}
+.item b{display:block}
+.item span{display:block}
+
+/* every category: its own color, font and alignment */
+.hot h2{font-family:Impact,sans-serif;font-size:1.8rem;color:#d81b60;text-align:left}
+.hot .item{font-family:Impact,sans-serif;color:#d81b60;text-align:left}
+.hot .item:nth-child(3){margin-left:50px}
+
+.cold h2{font-family:"Brush Script MT","Segoe Script",cursive;font-size:2.2rem;color:#1e88e5;text-align:right}
+.cold .item{font-family:"Brush Script MT","Segoe Script",cursive;font-size:1.25rem;color:#1e88e5;text-align:right}
+.cold .item:nth-child(2){margin-right:70px}
+
+.sweet h2{font-family:"Courier New",monospace;font-size:1.6rem;color:#f4511e;text-align:center}
+.sweet .item{font-family:"Courier New",monospace;color:#f4511e;text-align:center}
+.sweet .item:nth-child(3){text-align:left;margin-left:20px}
+
+.sand h2{font-family:Papyrus,"Palatino Linotype",fantasy;font-size:2rem;color:#43a047;text-align:left;margin-left:120px}
+.sand .item{font-family:Papyrus,"Palatino Linotype",fantasy;color:#43a047;text-align:right;margin-left:60px}
+.sand .item:nth-child(2){text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Crocy Café</h1>
+<p class="tag">Fresh coffee, warm treats, good company.</p>
+
+<section class="hot">
+<h2>Hot Drinks</h2>
+<div class="item"><b>Espresso — $2.50</b><span>Rich, bold single shot.</span></div>
+<div class="item"><b>Cappuccino — $3.80</b><span>Espresso with steamed milk and thick foam.</span></div>
+<div class="item"><b>Hot Chocolate — $3.50</b><span>Creamy cocoa topped with whipped cream.</span></div>
+</section>
+
+<section class="cold">
+<h2>Cold Drinks</h2>
+<div class="item"><b>Iced Latte — $4.20</b><span>Espresso, cold milk and ice.</span></div>
+<div class="item"><b>Fresh Lemonade — $3.20</b><span>Squeezed lemons with mint.</span></div>
+<div class="item"><b>Strawberry Smoothie — $4.50</b><span>Strawberries blended with yogurt.</span></div>
+</section>
+
+<section class="sweet">
+<h2>Sweets</h2>
+<div class="item"><b>Chocolate Croissant — $3.00</b><span>Buttery pastry with dark chocolate.</span></div>
+<div class="item"><b>Cheesecake Slice — $4.80</b><span>Classic baked cheesecake with berry sauce.</span></div>
+<div class="item"><b>Blueberry Muffin — $2.80</b><span>Baked fresh every morning.</span></div>
+</section>
+
+<section class="sand">
+<h2>Sandwiches</h2>
+<div class="item"><b>Grilled Cheese — $5.50</b><span>Melted cheddar on toasted bread.</span></div>
+<div class="item"><b>Chicken Panini — $6.90</b><span>Grilled chicken, mozzarella and pesto.</span></div>
+<div class="item"><b>Turkey Club — $6.50</b><span>Turkey, lettuce, tomato and mayo.</span></div>
+</section>
+</div>
+</body>
+</html>
